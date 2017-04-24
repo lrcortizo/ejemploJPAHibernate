@@ -125,8 +125,8 @@ public class Main {
             Jugador jugador = manager.find(Jugador.class, id);
             // Change the values
             jugador.setNombre(nombre);
-            jugador.setNombre(apellidos);
-            jugador.setNombre(sexo);
+            jugador.setApellidos(apellidos);
+            jugador.setSexo(sexo);
             jugador.setEdad(edad);
             // Update the student
             manager.persist(jugador);
